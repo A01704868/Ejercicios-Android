@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     @Override
     public void onLocationChanged(Location location) {
         if(value){
-            String uri = "https://api.openweathermap.org/data/2.5/weather?lat=" + location.getLatitude() + "&lon=" + location.getLongitude() + "&units=metric&appid=" + "ca7bbd394ebffd4667a8215044935aef";
+            String uri = "https://api.openweathermap.org/data/2.5/weather?lat=" + location.getLatitude() + "&lon=" + location.getLongitude() + "&units=metric&appid=" + "token";
             // Get JSON response
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
                     (Request.Method.GET, uri, null, new Response.Listener<JSONObject>() {

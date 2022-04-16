@@ -50,7 +50,7 @@ public class TargetActivity extends AppCompatActivity {
         }
 
         //prepare my URI
-        String uri = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=" + units + "&appid=" + "ca7bbd394ebffd4667a8215044935aef";
+        String uri = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=" + units + "&appid=" + "token";
 
         // Get JSON response
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
