@@ -1,3 +1,3 @@
 # Ejercicios Android
 
-Reto 1
+Todos los retos de la clase de desarrollo móvil.
